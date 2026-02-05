@@ -24,8 +24,8 @@ public class Main {
         g.addWeightedEdge(4,6,9);
         g.addWeightedEdge(5,6,7);
 
-//        System.out.println("Printing Dijkstra from Source : A");
-//        g.dijkstra(nodeList.get(0));
+        System.out.println("Printing Dijkstra from Source : A");
+        g.dijkstra(nodeList.get(0));
         System.out.println("Printing Bellman Ford from Source : A");
         g.BellmanFord(nodeList.get(0));
 

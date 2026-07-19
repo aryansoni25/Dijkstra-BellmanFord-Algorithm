@@ -76,7 +76,7 @@ public class WeightedGraph {
             }
         System.out.println("There is no Negative Cycle . . .");
         for (WeightedNode nodeToCheck : nodeList) {
-            System.out.print("Node " +nodeToCheck+", distance: "+nodeToCheck.distance+", Path: ");
+            System.out.print(" Node " +nodeToCheck+", distance: "+nodeToCheck.distance+", Path: ");
             pathPrint(nodeToCheck);
             System.out.println();
         }

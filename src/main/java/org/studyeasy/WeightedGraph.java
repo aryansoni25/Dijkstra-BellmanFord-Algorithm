@@ -69,7 +69,7 @@ public class WeightedGraph {
                     System.out.println("Vertex name: "+neighbor.name);
                     System.out.println("Old Cost: "+neighbor.distance);
                     int newDistance= current.distance+current.weightMap.get(neighbor);
-                    System.out.println("new cost: "+newDistance);
+                    System.out.println(" new cost: "+newDistance);
                     return;
                 }
                 }

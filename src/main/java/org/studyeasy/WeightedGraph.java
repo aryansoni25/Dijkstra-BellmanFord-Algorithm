@@ -61,7 +61,7 @@ public class WeightedGraph {
                 }
             }
         }
-        System.out.println("Checking for Negative Cycle . . .");
+        System.out.println(" Checking for Negative Cycle . . .");
         for(WeightedNode current:nodeList){
             for(WeightedNode neighbor: current.neighbors){
                 if(neighbor.distance> current.distance+ current.weightMap.get(neighbor)){
